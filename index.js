@@ -42,3 +42,9 @@ else {
 var firstPlayer = document.querySelector("p.firstPlayer").innerHTML = player1;
 
 var secondPlayer = document.querySelector("p.secondPlayer").innerHTML = player2;
+
+// Refresh Page
+
+function refreshPage(){
+    location.reload();
+}
